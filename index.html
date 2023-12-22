@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Registration Form</h1>
+        <!-- form -->
+      <form action="" name="form1" method="post" onsubmit="return validate()">
+        <!-- username -->
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter your Username"/>
+        <br/>
+        <br/>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" />
+        <br/>
+        <br/>
+        <!-- password -->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder=""/>
+        <br />
+        <br />
+        <!-- confirm password -->
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="cpassword" id="cpassword" />
+        <br/>
+        <br/>
+        <!-- Button -->
+        <button type="submit">Register</button>
+        <br>
+        <!-- credit -->
+        <a href="https://github.com/nvanxndhu">&copy;anandhunv</a>
+      </form>
+    </div>
+
+    <!-- link javascript -->
+    <script src="validation.js"></script>
+  </body>
+</html>
